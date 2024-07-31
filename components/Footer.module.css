@@ -1,0 +1,14 @@
+.footer {
+    left: 0;
+    right: 0;
+
+    padding: 4rem 2rem;
+
+}
+
+.copyright
+{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}

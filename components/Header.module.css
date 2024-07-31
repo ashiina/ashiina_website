@@ -1,0 +1,52 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background: linear-gradient(to bottom, rgba(35, 35, 35, 0.7), rgba(0, 0, 0, 0.7));
+
+    background-size: 400% 400%;
+    background-size: 200% 200%;
+
+    /* Transparent blue */
+    backdrop-filter: blur(5px);
+    /* This creates a frosted glass effect */
+    z-index: 1000;
+    /* Ensure it's above other content */
+    padding: 1rem 2rem;
+
+    background-color: rgba(0, 50, 100, 0.3);
+    /* More transparent when at top */
+    transition: background-color 0.3s ease;
+
+}
+
+.header.scrolled {
+    background-color: rgba(0, 50, 100, 0.9);
+    /* More opaque when scrolled */
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header nav ul li {
+    margin-left: 2rem;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    color: #66b3ff;
+    /* Light blue on hover */
+}

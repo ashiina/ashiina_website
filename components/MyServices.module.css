@@ -1,0 +1,147 @@
+.offersSection {
+    padding: 4rem 2rem 0 2rem;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+
+}
+
+
+.sectionSubtitle {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.sectionDescription {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto ;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.offersGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+}
+
+
+.offerCard {
+    background-color: white;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(127, 125, 118, 0.6);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: left; /* Align text to the left */
+    padding: 20px; /* Add some padding if not already present */
+
+    position: relative;
+    overflow: hidden;
+    min-height: 80px; /* Increase this value to make cards taller */
+}
+
+.offerHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.offerIcon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    fill: #113;
+    flex-shrink: 0; /* Prevent icon from shrinking */
+}
+
+.offerTitle {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #113;
+    font-weight: bold;
+
+    margin: 0; /* Remove default margin */
+    line-height: 1; /* This helps with vertical alignment */
+}
+
+.darkBlurOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    backdrop-filter: blur(3px); /* Adjust blur amount as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offerTitleOnly {
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.offerList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.offerList li {
+    margin-bottom: 0.8rem;
+    position: relative;
+    padding-left: 1.5rem;
+    color: #113;
+}
+
+.offerList li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+    font-weight: bold;
+}
+
+/* Single Offer */
+
+.singleOffer {
+    grid-column: 1 / -1;
+    /* background-color: #789eff; */
+    margin: 1rem auto;
+    margin-bottom: 2rem;
+}
+
+.singleOffer:hover {
+    animation: gradientShift 0.3s ease;
+}
+
+.singleOffer .offerTitle {
+    color: #113;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.singleOffer .offerDescription {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #113;
+}
+
+@media (max-width: 768px) {
+    .offersGrid {
+        grid-template-columns: 1fr;
+    }
+}
