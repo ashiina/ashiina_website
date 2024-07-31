@@ -11,9 +11,8 @@ const Contact = () => {
             </div>
             <br />
             <div
-                    className="calendly-inline-widget"
+                    className={`${styles.calendly} calendly-inline-widget`}
                     data-url="https://calendly.com/ashiina-biz/30min"
-                    style={{ minWidth: "320px", height: "800px", backgroundColor: "white" }}
                 />
                 <Script src="https://assets.calendly.com/assets/external/widget.js" strategy="lazyOnload" />
             <br />

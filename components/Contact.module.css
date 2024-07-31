@@ -23,7 +23,18 @@
     color: #fff;
 }
   
+.calendly
+{
+  min-width: 320px;
+  height: 800px;
+  background-color: white;
+}
+
   @media (max-width: 768px) {
+    .calendly
+    {
+      margin: 0 -50px 0 -50px;
+    }
     .content {
       flex-direction: column;
     }
