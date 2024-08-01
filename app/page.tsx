@@ -7,6 +7,8 @@ import AboutMe from '../components/AboutMe';
 import Header from '../components/Header';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
+import ContentGallery from '../components/ContentGallery';
+import { videoItems, articleItems } from '../data/content';
 
 export default function Home() {
   return (
@@ -50,6 +52,12 @@ export default function Home() {
 
         <a id="aboutme"></a>
         <AboutMe />
+
+        <ContentGallery items={videoItems} title="Videos" />
+      
+      {/*
+        <ContentGallery items={articleItems} title="Articles" />
+      */}
 
         <a id="contact"></a>
         <Contact />

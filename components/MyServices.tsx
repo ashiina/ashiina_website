@@ -60,7 +60,7 @@ const industryData = [
 const MyServices: React.FC = () => {
     return (
         <section className={styles.offersSection}>
-            <h2 className={styles.sectionTitle}>What I Offer</h2>
+            <h2>What I Offer</h2>
             <div className={`${styles.offerCard} ${styles.singleOffer} ${pageStyles.gradBlueLight}`}>
                 <h3 className={styles.offerTitle}>Fractional CTO</h3>
                 <p className={styles.offerDescription}>
@@ -86,13 +86,13 @@ const MyServices: React.FC = () => {
                 ))}
             </div>
 
-            <h2 className={styles.sectionTitle}>Areas/Industries</h2>
+            <h2>Areas/Industries</h2>
             <div className={styles.sectionDescription}>
                 <p>I have strong expertise in the areas/industries below - though I am comfortable helping companies in other industries also.</p>
             </div>
             <div className={styles.offersGrid}>
                 {industryData.map((ind, index) => (
-                    <div key={index} className={`${styles.offerCard} ${pageStyles.gradBlueLight}`}
+                    <div key={index} className={`${styles.indCard} ${pageStyles.gradBlueLight}`}
                         style={{
                             backgroundImage: `url(${ind.backgroundImage})`,
                             backgroundSize: 'cover',

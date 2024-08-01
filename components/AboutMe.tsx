@@ -6,7 +6,7 @@ import pageStyles from '../app/page.module.css'; // Adjust the path as necessary
 const AboutMe: React.FC = () => {
     return (
         <section className={styles.aboutMe}>
-            <h2 className={styles.title}>About Me</h2>
+            <h2>About Me</h2>
             <div className={styles.content}>
                 <div className={styles.imageContainer}>
                     {/* Replace with your actual image */}

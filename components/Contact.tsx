@@ -5,7 +5,7 @@ const Contact = () => {
 
     return (
         <section className={styles.contact}>
-            <h2 className={styles.title}>Book a Free Call</h2>
+            <h2>Book a Free Call</h2>
             <div className={styles.sectionDescription}>
                 <p>If you are a manager, executive, or an business owner, I will be happy to take a free 30 minute call. Let's go over your issues together, and discuss how I maybe able to help.</p>
             </div>
@@ -17,7 +17,7 @@ const Contact = () => {
                 <Script src="https://assets.calendly.com/assets/external/widget.js" strategy="lazyOnload" />
             <br />
 
-            <h2 className={styles.title}>Contact</h2>
+            <h2>Contact</h2>
             <div className={styles.sectionDescription}>
                 <p>If you have any questions, feel free to contact me here: <a href="">Contact Form</a></p>
             </div>

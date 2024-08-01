@@ -1,0 +1,102 @@
+/* components/Content.module.css */
+
+.gallery {
+    padding: 3rem 0;
+}
+
+.galleryTitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .galleryGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .galleryGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card {
+    background-color: #1f2937;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure all cards have the same height */
+}
+
+.cardImage {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.cardContent {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Allow content to grow and push button down */
+}
+
+.cardTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.cardDescription {
+    color: #9ca3af;
+    margin-bottom: 1rem;
+    flex-grow: 1; /* Allow description to grow */
+}
+
+.cardButtonWrapper {
+    margin-top: auto; /* button to bottom */
+    text-align: center;
+}
+
+.cardButton {
+    display: inline-block;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    text-align: center;
+
+    background: linear-gradient(135deg,
+            rgba(50, 200, 120, 1) 0%,
+            rgba(70, 255, 150, 1) 25%,
+            rgba(70, 255, 150, 1) 75%,
+            rgba(50, 200, 120, 1) 100%);
+    box-shadow:
+        0 0 10px rgba(255, 255, 255, 0.3),
+        0 0 10px rgba(70, 255, 150, 0.3),
+        0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 1s ease;
+
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: "Kanit", sans-serif;
+    cursor: pointer;
+}

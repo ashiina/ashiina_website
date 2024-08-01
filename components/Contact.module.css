@@ -1,49 +1,43 @@
 .contact {
   padding: 4rem 2rem 0 2rem;
 }
-  
-  .title {
-    font-size: 2.5rem;
-    text-align: center;
-    margin-bottom: 2rem;
-  }
-  
-  .content {
-    display: flex;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 2rem;
-  }
-  
-  .sectionDescription {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto ;
-    font-size: 1.1rem;
-    color: #fff;
+
+.content {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
 }
-  
-.calendly
-{
+
+.sectionDescription {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+.calendly {
   min-width: 320px;
   height: 800px;
   background-color: white;
 }
 
-  @media (max-width: 768px) {
-    .calendly
-    {
-      margin: 0 -50px 0 -50px;
-    }
-    .content {
-      flex-direction: column;
-    }
-  
-    .imageContainer {
-      flex: 0 0 auto;
-    }
-  
-    .imagePlaceholder {
-      height: 400px; /* Adjust for mobile */
-    }
+@media (max-width: 768px) {
+  .calendly {
+    margin: 0 -50px 0 -50px;
   }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    flex: 0 0 auto;
+  }
+
+  .imagePlaceholder {
+    height: 400px;
+    /* Adjust for mobile */
+  }
+}
