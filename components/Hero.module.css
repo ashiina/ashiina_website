@@ -135,10 +135,15 @@
     text-align: left;
 }
 
-.tagAndCTA p {
+.tagAndCTA h3 {
     padding-top: 2rem;
     font-size: 1.8rem;
     margin-bottom: 20px;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  
 }
 
 @media (max-width: 768px) {
