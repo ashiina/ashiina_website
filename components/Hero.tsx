@@ -17,9 +17,9 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className={styles.tagAndCTA}>
-                    <p>
+                    <h3>
                     Tech strategy, management, and hiring expert. Let’s make your tech work for you.
-                    </p>
+                    </h3>
                     <a href="#contact">
                         <button className={styles.letsTalk}>
                             <span>Book a Free Call</span>
