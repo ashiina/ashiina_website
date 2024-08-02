@@ -8,8 +8,14 @@ const AboutMe: React.FC = () => {
             <h2>About Me</h2>
             <div className={styles.content}>
                 <div className={styles.imageContainer}>
-                    {/* Replace with your actual image */}
-                    <div className={styles.imagePlaceholder}></div>
+                <div className={styles.imagePlaceholder}>
+                <Image
+                                src="/prof_long.jpg"
+                                alt="Profile"
+                                width={400}
+                                height={400}
+                            />
+                </div>
                 </div>
                 <div className={styles.profileInfo}>
                     <p>
