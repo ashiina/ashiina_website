@@ -1,5 +1,4 @@
 import styles from './Footer.module.css'; // Adjust the path as necessary
-import pageStyles from '../app/page.module.css'; // Adjust the path as necessary
 
 const Footer = () => {
 
@@ -8,7 +7,7 @@ const Footer = () => {
             <div className={styles.copyright}>
                 <p>© 2024 Ahmad Shiina</p>
             </div>
-            <div className={pageStyles.spacer}></div>
+            <div className={`spacer`}></div>
         </footer>
     );
 };

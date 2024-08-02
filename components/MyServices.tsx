@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './MyServices.module.css';
-import pageStyles from '../app/page.module.css'; // Adjust the path as necessary
 
 const offerData = [
     {
@@ -61,10 +60,10 @@ const MyServices: React.FC = () => {
     return (
         <section className={styles.offersSection}>
             <h2>What I Offer</h2>
-            <div className={`${styles.offerCard} ${styles.singleOffer} ${pageStyles.gradBlueLight}`}>
+            <div className={`${styles.offerCard} ${styles.singleOffer} gradBlueLight`}>
                 <h3 className={styles.offerTitle}>Fractional CTO</h3>
                 <p className={styles.offerDescription}>
-                    As a Fractional (part-time) CTO, I will provide executive-level support around everything technology and engineering related. I offer flexible support around <span className={pageStyles.strong}>all of the areas below</span> as we identify strategies and issues together.
+                    As a Fractional (part-time) CTO, I will provide executive-level support around everything technology and engineering related. I offer flexible support around <span className={`strong`}>all of the areas below</span> as we identify strategies and issues together.
                 </p>
             </div>
 
@@ -92,7 +91,7 @@ const MyServices: React.FC = () => {
             </div>
             <div className={styles.offersGrid}>
                 {industryData.map((ind, index) => (
-                    <div key={index} className={`${styles.indCard} ${pageStyles.gradBlueLight}`}
+                    <div key={index} className={`${styles.indCard} gradBlueLight`}
                         style={{
                             backgroundImage: `url(${ind.backgroundImage})`,
                             backgroundSize: 'cover',

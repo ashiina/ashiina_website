@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './AboutMe.module.css';
-import pageStyles from '../app/page.module.css'; // Adjust the path as necessary
 
 const AboutMe: React.FC = () => {
     return (
@@ -23,7 +22,7 @@ const AboutMe: React.FC = () => {
                         In addition to my role as CTO, I also serve as an advisor and consultant for multiple companies, helping CEOs run effective engineering teams and create successful IT strategies.
                     </p>
                     <div className={styles.socialLinks}>
-                        <a href="https://www.linkedin.com/in/ahmad-shiina-73608a41/" target="_blank" rel="noopener noreferrer" className={`${styles.iconLink}  ${pageStyles.gradBlueLight}`}>
+                        <a href="https://www.linkedin.com/in/ahmad-shiina-73608a41/" target="_blank" rel="noopener noreferrer" className={`${styles.iconLink}  gradBlueLight`}>
                             <Image
                                 src="/linkedin-icon.svg"
                                 alt="LinkedIn"
@@ -32,7 +31,7 @@ const AboutMe: React.FC = () => {
                                 className={styles.icon}
                             />
                         </a>
-                        <a href="https://www.youtube.com/@Shiina-AI" target="_blank" rel="noopener noreferrer" className={`${styles.iconLink}  ${pageStyles.gradBlueLight}`}>
+                        <a href="https://www.youtube.com/@Shiina-AI" target="_blank" rel="noopener noreferrer" className={`${styles.iconLink}  gradBlueLight`}>
                         <Image
                                 src="/youtube-icon.svg"
                                 alt="YouTube"
@@ -41,7 +40,7 @@ const AboutMe: React.FC = () => {
                                 className={styles.icon}
                             />
                         </a>
-                        <a href="https://a-shiina.medium.com/" target="_blank" rel="noopener noreferrer" className={`${styles.iconLink}  ${pageStyles.gradBlueLight}`}>
+                        <a href="https://a-shiina.medium.com/" target="_blank" rel="noopener noreferrer" className={`${styles.iconLink}  gradBlueLight`}>
                         <Image
                                 src="/medium-icon.svg"
                                 alt="Medium"
