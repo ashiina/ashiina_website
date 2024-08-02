@@ -51,8 +51,21 @@ As a Fractional (part-time) CTO, I will provide executive-level support around e
  - AI
 
 ## My Videos
+(3 youtube videos)
 
 ## My Articles
+(After I write Medium articles)
 
 ## Testimonials
  - 
+
+## Appearances
+Forbes 30 under 30
+https://www.forbes.com/profile/ahmad-shiina/
+
+Interview by AWS
+https://aws.amazon.com/jp/builders-flash/202002/timers-interview/
+
+IVS CTO Night & Day
+https://logmi.jp/business/articles/67272
+

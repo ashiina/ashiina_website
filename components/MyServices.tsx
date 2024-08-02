@@ -67,6 +67,9 @@ const MyServices: React.FC = () => {
                 </p>
             </div>
 
+            <p className={styles.sectionDescription}>
+                I offer the following services to make your technology work for you and grow your business.
+            </p>
             <div className={styles.offersGrid}>
                 {offerData.map((offer, index) => (
                     <div key={index} className={styles.offerCard}>

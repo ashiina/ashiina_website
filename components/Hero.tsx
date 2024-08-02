@@ -18,7 +18,7 @@ const Hero = () => {
                 </div>
                 <div className={styles.tagAndCTA}>
                     <p>
-                        I am Your Fractional CTO: Here to Help Lead Your Tech Strategy, Projects, and Teams to Success.
+                    Tech strategy, management, and hiring expert. Let’s make your tech work for you.
                     </p>
                     <a href="#contact">
                         <button className={styles.letsTalk}>
