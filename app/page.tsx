@@ -8,7 +8,7 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
 import ContentGallery from '../components/ContentGallery';
-import { videoItems, articleItems } from '../data/content';
+import { videoItems, appearanceItems } from '../data/content';
 
 export default function Home() {
   return (
@@ -28,11 +28,9 @@ export default function Home() {
         <a id="aboutme"></a>
         <AboutMe />
 
+        <ContentGallery items={appearanceItems} title="Appearances" />
+
         <ContentGallery items={videoItems} title="Videos" />
-      
-      {/*
-        <ContentGallery items={articleItems} title="Articles" />
-      */}
 
         <a id="contact"></a>
         <Contact />
